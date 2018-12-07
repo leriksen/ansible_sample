@@ -1,0 +1,8 @@
+---
+envs:
+  - envname: nonprod
+    var1: nonprod-value1
+  - envname: preprod
+    var1: preprod-value1
+  - envname: prod
+    var1: prod-value1

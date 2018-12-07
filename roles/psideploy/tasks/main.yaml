@@ -1,0 +1,4 @@
+---
+- name: psideploy generate env files
+  template: src=psideploy.j2 dest=./output/{{item.envname}}.env
+  with_items: "{{ envs }}"
